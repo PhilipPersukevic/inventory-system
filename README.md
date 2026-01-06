@@ -87,3 +87,13 @@ Manages the collection of `Product` objects and handles file input/output.
 | `remove_product(id)` | Removes a product by ID and saves changes to CSV. |
 | `save_to_csv()` | Persists the current inventory state to `products.csv`. |
 | `load_from_csv()` | Reads and loads product data from `products.csv`. |
+
+## What this project demonstrates
+- Object-Oriented Programming (classes, encapsulation)
+- File persistence using CSV
+- Separation of concerns (data model, business logic, UI)
+- Basic error handling and input validation
+
+## Tech Stack
+- Python 3
+- Standard Library (`csv`)
